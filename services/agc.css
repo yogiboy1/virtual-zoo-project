@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(agg.jpg);
+    background-size: 100%;
+  
+}
+p{
+margin-left: 40px;}
+button{
+margin-left: 55px;}
+h1 {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-overflow: clip;
+    animation-duration: 3s;
+    animation-name: bounce;
+  }
+  
+  @keyframes bounce {
+    from {
+  transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  p{
+    border-block-start-color: teal;
+  }
